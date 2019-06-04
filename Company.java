@@ -18,10 +18,14 @@ import java.util.List;
      public void addEmployee(Person employee) {
         if (employeeList == null) employeeList = new LinkedList<>();
         this.employeeList.add(employee);
+<<<<<<< HEAD
     }
 	
      public void removeEmployee(Person employee) {
         if (employeeList != null) this.employeeList.remove(employee);
 		employee.setCompany(null);
+=======
+        employee.setCompany(name);
+>>>>>>> feature1
 	}
 }
